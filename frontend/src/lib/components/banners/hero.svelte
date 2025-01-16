@@ -18,14 +18,14 @@
       <div class="mt-8 flex flex-wrap justify-center gap-4">
         <a
           class="block w-full rounded bg-primary px-12 py-3 text-sm font-medium text-white shadow hover:bg-primary focus:outline-none focus:ring active:bg-red-500 sm:w-auto"
-          href="#"
+          href="!#"
         >
           Get Started
         </a>
 
         <a
           class="block w-full rounded px-12 py-3 text-sm font-medium text-primary shadow hover:text-primary focus:outline-none focus:ring active:text-red-500 sm:w-auto"
-          href="#"
+          href="!#"
         >
           Learn More
         </a>
