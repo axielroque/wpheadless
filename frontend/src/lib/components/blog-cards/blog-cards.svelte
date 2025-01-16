@@ -1,6 +1,7 @@
 <section>
   <div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
     <header class="text-center">
+
       <h2 class="text-xl font-bold text-gray-900 sm:text-3xl">Blog</h2>
 
       <p class="mx-auto mt-4 max-w-md text-gray-500">
@@ -22,30 +23,40 @@
           />
 
           <div class="bg-white p-4 sm:p-6">
+
             <time datetime="2022-10-10" class="block text-xs text-gray-500">
+
               10th Oct 2022
             </time>
             <div class="mt-4 flex flex-wrap gap-1">
               <span
+
                 class="whitespace-nowrap rounded-full bg-purple-100 px-2.5 py-0.5 text-xs text-purple-600"
+
               >
                 Snippet
               </span>
 
               <span
+
                 class="whitespace-nowrap rounded-full bg-purple-100 px-2.5 py-0.5 text-xs text-purple-600"
+
               >
                 JavaScript
               </span>
             </div>
 
             <a href="#">
+
               <h3 class="mt-0.5 text-lg text-gray-900">
+
                 How to position your furniture for positivity
               </h3>
             </a>
 
+
             <p class="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
+
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Recusandae dolores, possimus pariatur animi temporibus nesciunt
               praesentium dolore sed nulla ipsum eveniet corporis quidem,
@@ -55,9 +66,11 @@
             </p>
             <a
               href="#"
+
               class="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-blue-600"
             >
               Find out more
+
 
               <span
                 aria-hidden="true"
@@ -80,30 +93,40 @@
           />
 
           <div class="bg-white p-4 sm:p-6">
+
             <time datetime="2022-10-10" class="block text-xs text-gray-500">
+
               10th Oct 2022
             </time>
             <div class="mt-4 flex flex-wrap gap-1">
               <span
+
                 class="whitespace-nowrap rounded-full bg-purple-100 px-2.5 py-0.5 text-xs text-purple-600"
+
               >
                 Snippet
               </span>
 
               <span
+
                 class="whitespace-nowrap rounded-full bg-purple-100 px-2.5 py-0.5 text-xs text-purple-600"
+
               >
                 JavaScript
               </span>
             </div>
 
             <a href="#">
+
               <h3 class="mt-0.5 text-lg text-gray-900">
+
                 How to position your furniture for positivity
               </h3>
             </a>
 
+
             <p class="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
+
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Recusandae dolores, possimus pariatur animi temporibus nesciunt
               praesentium dolore sed nulla ipsum eveniet corporis quidem,
@@ -113,9 +136,11 @@
             </p>
             <a
               href="#"
+
               class="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-blue-600"
             >
               Find out more
+
 
               <span
                 aria-hidden="true"
@@ -138,30 +163,40 @@
           />
 
           <div class="bg-white p-4 sm:p-6">
+
             <time datetime="2022-10-10" class="block text-xs text-gray-500">
+
               10th Oct 2022
             </time>
             <div class="mt-4 flex flex-wrap gap-1">
               <span
+
                 class="whitespace-nowrap rounded-full bg-purple-100 px-2.5 py-0.5 text-xs text-purple-600"
+
               >
                 Snippet
               </span>
 
               <span
+
                 class="whitespace-nowrap rounded-full bg-purple-100 px-2.5 py-0.5 text-xs text-purple-600"
+
               >
                 JavaScript
               </span>
             </div>
 
             <a href="#">
+
               <h3 class="mt-0.5 text-lg text-gray-900">
+
                 How to position your furniture for positivity
               </h3>
             </a>
 
+
             <p class="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
+
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Recusandae dolores, possimus pariatur animi temporibus nesciunt
               praesentium dolore sed nulla ipsum eveniet corporis quidem,
@@ -171,9 +206,11 @@
             </p>
             <a
               href="#"
+
               class="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-blue-600"
             >
               Find out more
+
 
               <span
                 aria-hidden="true"

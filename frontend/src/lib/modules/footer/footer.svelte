@@ -7,8 +7,10 @@
         <span class="block w-14">
           <svg
             fill="#404040"
+
             width="100%"
             height="100%"
+
             viewBox="0 0 24 24"
             id="moon"
             data-name="Line Color"
@@ -41,7 +43,9 @@
       <ul class="mt-8 flex justify-start gap-6 sm:mt-0 sm:justify-end">
         <li>
           <a
+
             href="!#"
+
             rel="noreferrer"
             target="_blank"
             class="text-accent transition hover:opacity-75"
@@ -65,7 +69,9 @@
 
         <li>
           <a
+
             href="!#"
+
             rel="noreferrer"
             target="_blank"
             class="text-accent transition hover:opacity-75"
@@ -89,7 +95,9 @@
 
         <li>
           <a
+
             href="!#"
+
             rel="noreferrer"
             target="_blank"
             class="text-accent transition hover:opacity-75"
@@ -111,7 +119,9 @@
 
         <li>
           <a
+
             href="!#"
+
             rel="noreferrer"
             target="_blank"
             class="text-accent transition hover:opacity-75"
