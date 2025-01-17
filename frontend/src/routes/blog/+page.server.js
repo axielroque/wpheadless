@@ -15,9 +15,20 @@ export async function load() {
                         date
                         title
                         excerpt
+<<<<<<< HEAD
+                        featuredImage {
+                            node {
+                                sourceUrl
+                            }
+                        }
+                        terms {
+                            nodes {
+                                name
+=======
                         terms {
                             nodes {
                             name
+>>>>>>> 7219ed6d1b6b3be04635530cbe50699be1fa5d0a
                             }
                         }
                         }

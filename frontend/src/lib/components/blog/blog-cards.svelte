@@ -1,22 +1,31 @@
 <script>
+  import Time from "svelte-time/Time.svelte";
   export let posts;
 </script>
 
 <ul class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-  {#each posts.posts as post}
+  {#each posts as post}
     <li>
       <article
         class="overflow-hidden rounded-lg shadow transition hover:shadow-lg"
       >
-        <img
-          alt=""
-          src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
-          class="h-56 w-full object-cover"
-        />
+        {#if post.featuredImage == null}
+          <img
+            alt={post.title}
+            src="http://wp-headless.wp/wp-content/uploads/2025/01/elementor-placeholder-image.webp"
+            class="h-56 w-full object-cover"
+          />
+        {:else}
+          <img
+            alt={post.title}
+            src={post.featuredImage.node.sourceUrl}
+            class="h-56 w-full object-cover"
+          />
+        {/if}
 
         <div class="bg-white p-4 sm:p-6">
           <time datetime="2022-10-10" class="block text-xs text-gray-600">
-            {post.date}
+            <Time timestamp={post.date} format="MMMM D, YYYY" />
           </time>
           <div class="mt-4 flex flex-wrap gap-1">
             {#each post.terms.nodes as term}
@@ -28,7 +37,7 @@
             {/each}
           </div>
 
-          <a href={post.slug}>
+          <a href="blog/{post.slug}">
             <h3 class="mt-0.5 text-lg">
               {post.title}
             </h3>
@@ -38,7 +47,7 @@
             {@html post.excerpt}
           </p>
           <a
-            href={post.slug}
+            href="blog/{post.slug}"
             class="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-primary"
           >
             Read more
