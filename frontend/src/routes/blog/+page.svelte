@@ -5,9 +5,9 @@
 
   export let data;
 
-  let posts = data;
+  let posts = data.posts;
 
-  //console.log(posts);
+  console.log(posts);
 </script>
 
 <Navbar />

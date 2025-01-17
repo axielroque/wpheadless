@@ -3,23 +3,21 @@
   import Footer from "$lib/modules/footer/footer.svelte";
   import Hero from "$lib/components/banners/hero.svelte";
   import Stat from "$lib/components/stat/stat.svelte";
-  import ProductCollection from "$lib/components/product-collection/product-collection.svelte";
-
+  import ProductCollection from "$lib/components/productCollection/productCollection.svelte";
   import Newsletter from "$lib/components/ctas/newsletter.svelte";
   import BlogSection from "$lib/components/blog/blog-section.svelte";
 
   /** @type {import('./$types').PageData} */
   export let data;
-  let posts = data;
-
-  //console.log(posts);
+  let posts = data.blogPosts;
+  let products = data.products;
 </script>
 
 <Navbar />
 
 <Hero />
 
-<ProductCollection />
+<ProductCollection {products} />
 
 <Stat />
 
