@@ -45,7 +45,7 @@
             <li>
               <a
                 class="text-accent transition hover:text-gray-500/75"
-                href="!#"
+                href="/shop"
               >
                 Shop
               </a>
